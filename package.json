@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/nodemon -q ./index.js",
+    "watch2": "./node_modules/.bin/nodemon -q ./foo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mailparser": "^2.7.6",
+    "node-7z": "^2.0.4",
+    "nodemailer": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
